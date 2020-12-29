@@ -26,6 +26,8 @@ jobs:
 
       - name: Build Site
         run: yarn run build
+        env:
+          GATSBY_PORTFOLIO_GITHUB_TOKEN: ${{ secrets.GH_GRAPHQL_TOKEN }}
 
       - name: Store build artifact
         uses: actions/upload-artifact@v2
