@@ -1,5 +1,5 @@
 module.exports = {
-  defaultTitle: 'David Pugh',
+  title: '@djpugh',
   commonName: 'David',
   logo: 'https://djpugh.github.io/favicon/favicon-512.png',
   author: 'David Pugh',
@@ -79,6 +79,10 @@ module.exports = {
     "Azure",
     "MATLAB",
     "Django",
+    "Bokeh",
+    "Plotly",
+    "Click",
+    "Pydantic"
   ],
   learning: [
     "Gatsby",

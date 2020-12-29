@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import useMedia from 'hooks/useMedia';
 
 export default () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   const toggleTheme = () => {
     if (theme === 'light') {
