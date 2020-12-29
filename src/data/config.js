@@ -5,7 +5,7 @@ module.exports = {
   author: 'David Pugh',
   url: 'https://djpugh.github.io',
   legalName: 'David Pugh',
-  defaultDescription: 'I’m David and I’m a Data Scientist, Machine Learning Engineer & Software Developer!',
+  defaultDescription: 'I’m David and I’m a Data Scientist, Machine Learning Engineer & Software Developer, who likes building efficient solutions!',
   socialLinks: [
     {
       "id": 0,
@@ -34,7 +34,7 @@ module.exports = {
   },
   foundingDate: '2016',
   detail: `
-  <em>I enjoy leading a team to build efficient practical solutions founded on theoretical understanding, and developing novel methods to solve challenging and inspiring problems.</em>
+  <b>I enjoy leading a team to build efficient practical solutions founded on theoretical understanding, and developing novel methods to solve challenging and inspiring problems.</b>
   <br />
   <br />
   <small>
@@ -46,7 +46,6 @@ module.exports = {
   I am frequently exploring new technologies and approaches, and interesting ways of combining existing approaches.
   </small>`,
   skills: [
-    "Python",
     "CI/CD",
     "DevOps",
     "Machine Learning",
@@ -56,16 +55,36 @@ module.exports = {
     "DX",
     "Microservices",
     "API Development",
-    "FastAPI",
-    "Numpy",
-    "Pandas",
-    "Scipy",
     "CLI",
-    "Docker",
     "Optimisation",
     "Simulation",
     "Uncertainty Quantification",
     "Cloud",
-    "Azure"
+    "Edge",
+    "IoT",
+    "Graph",
+    "Data Analysis",
+    "Product Development",
+    "Bayesian statistics",
+    "Probabilistic Approaches",
+    "Monte Carlo Methods",
+  ],
+  tools : [
+    "Python",
+    "FastAPI",
+    "Numpy",
+    "Pandas",
+    "Scipy",
+    "Docker",
+    "Azure",
+    "MATLAB",
+    "Django",
+  ],
+  learning: [
+    "Gatsby",
+    "React",
+    "AAD Authentication",
+    "Julia",
+    "GraphQL"
   ]
 };

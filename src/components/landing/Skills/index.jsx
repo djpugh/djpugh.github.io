@@ -2,10 +2,12 @@ import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Container } from 'components/common';
 import { Links } from 'components/theme/Footer/styles';
-import { Wrapper, SkillsWrapper, Details, SkillsBubbles, SkillBubble } from './styles';
+import { Wrapper, SkillsWrapper, Details, SkillsBubbles, SkillBubble, LearningBubble } from './styles';
 import {
   skills,
   detail,
+  tools,
+  learning,
   socialLinks
 } from 'data/config';
 
@@ -20,12 +22,31 @@ export const Skills = () => {
           <p dangerouslySetInnerHTML={{__html: detail}}>
           </p>
           <h2>Skills</h2>
-          <br/>
           <SkillsBubbles>
             {skills.map(skill => (
               <SkillBubble key={skill} theme={theme}>
                 {skill}
               </SkillBubble>
+            ))}
+          </SkillsBubbles>
+          <br/>
+          <h2>Tools</h2>
+          <SkillsBubbles>
+            {tools.map(skill => (
+              <SkillBubble key={skill} theme={theme}>
+                {skill}
+              </SkillBubble>
+            ))}
+          </SkillsBubbles>
+          <br/>
+          <br/>
+          <br/>
+          <h2>Learning</h2>
+          <SkillsBubbles>
+            {learning.map(skill => (
+              <LearningBubble key={skill} theme={theme}>
+                {skill}
+              </LearningBubble>
             ))}
           </SkillsBubbles>
           <br/>

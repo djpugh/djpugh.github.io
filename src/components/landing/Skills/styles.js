@@ -92,3 +92,21 @@ export const SkillBubble = styled.div`
   -moz-box-shadow: 2px 2px 4px  ${({ theme }) => (theme === 'light' ? '#888' : '#222')};
   box-shadow: 2px 2px 4px  ${({ theme }) => (theme === 'light' ? '#888' : '#222')};
 `;
+
+export const LearningBubble = styled.div`
+  display:inline-block;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-right: 0.2em;
+  background-color: ${({ theme }) => (theme === 'light' ? '#eee' : '#333')};
+  color: ${({ theme }) => (theme === 'light' ? '#222' : '#eee')};
+  width: auto;
+  text-align: center;
+  border: 2px solid  ${({ theme }) => (theme === 'light' ? '#666' : '#333')};
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px  ${({ theme }) => (theme === 'light' ? '#888' : '#222')};
+  -moz-box-shadow: 2px 2px 4px  ${({ theme }) => (theme === 'light' ? '#888' : '#222')};
+  box-shadow: 2px 2px 4px  ${({ theme }) => (theme === 'light' ? '#888' : '#222')};
+`;

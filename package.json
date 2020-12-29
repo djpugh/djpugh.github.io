@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "description": "A simple portfolio for developers",
+  "description": "My Portfolio",
   "version": "0.1.2",
   "author": "David Pugh <djpugh@gmail.com>",
   "dependencies": {
@@ -44,7 +44,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "reset": "rm -rf .cache/ public/",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
@@ -59,13 +59,14 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.3.0",
+    "gh-pages": "^3.1.0",
     "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+    "url": "git@github.com:djpugh/djpugh.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    "url": "https://github.com/djpugh/djpugh.github.io/issues"
   }
 }
