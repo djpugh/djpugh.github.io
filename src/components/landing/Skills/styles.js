@@ -51,6 +51,10 @@ export const Details = styled.div`
   light {
     font-size: 12pt;
     font-weight: lighter;
+    line-height: 1.5;
+  }
+  li:first-of-type {
+    margin-top: 1.5em;
   }
 `;
 
