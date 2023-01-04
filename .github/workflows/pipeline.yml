@@ -13,11 +13,11 @@ jobs:
     name: Build Site
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           clean: true
 
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
         with:
           node-version: '18.x'
 
@@ -30,7 +30,7 @@ jobs:
           GATSBY_PORTFOLIO_GITHUB_TOKEN: ${{ secrets.GH_GRAPHQL_TOKEN }}
 
       - name: Store build artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: build
           path: |
@@ -44,7 +44,7 @@ jobs:
       - build
     steps:
       - name: Download site
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: build
           path: ./public
