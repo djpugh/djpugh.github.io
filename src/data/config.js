@@ -5,7 +5,13 @@ module.exports = {
   author: 'David Pugh',
   url: 'https://djpugh.github.io',
   legalName: 'David Pugh',
-  defaultDescription: 'I’m David and I’m a Data Scientist, Machine Learning Engineer & Software Developer, who likes building efficient solutions!',
+  defaultDescription: "I’m David and I’m an experienced technical, people, and product leader.",
+  summary: `
+  I've worked in multiple industries to deliver actionable outcomes from data and insights, with a strong product mindset.
+  <br />
+  <br />
+  My background is as a Data Scientist, Machine Learning Engineer & Software Developer, who likes building efficient solutions!
+  `,
   socialLinks: [
     {
       "id": 0,
@@ -16,7 +22,7 @@ module.exports = {
     {
       "id": 1,
       "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/david-pugh-3937a9129/'",
+      "link": "https://www.linkedin.com/in/david-pugh-3937a9129/",
       "icon": "/icons/linkedin.svg"
     }
   ],
@@ -34,17 +40,46 @@ module.exports = {
   },
   foundingDate: '2016',
   detail: `
-  <b>I enjoy leading a team to build efficient practical solutions founded on theoretical understanding, and developing novel methods to solve challenging and inspiring problems.</b>
+  <b>
+    I enjoy building and leading diverse and high performing teams to develop efficient practical solutions founded on theoretical understanding, and finding novel methods to solve challenging and inspiring problems.
+  </b>
   <br />
   <br />
   <small>
-  Building on my strong technical background, I have developed a strong interest in statistical and probabilistic approaches, data analysis, visualization, and uncertainty quantification. I enjoy applying these to real world challenges to help people make decisions at the right time, based on the right insight.
+    Apart from a few brief dalliances with other subjects, I've always loved maths and physics, and I relish solving inspiring and challenging problems, which is how I got into data science, analytics, and software engineering. I enjoy applying these approaches to real world challenges to help people make decisions at the right time, based on the right insight.
+    <br />
+    <br />
+    I am a proponent of continuous improvement, and like to use agile working approaches to improve the way we work with clearly driven organisational structures that reflect the goals we are trying to achieve. I have helped to develop ways of working, internal team processes, organisation design and architecture, and operating models.
+    <br />
+    <br />
+    I am frequently exploring new technologies and approaches, and interesting ways of combining existing approaches.
+  </small>
   <br />
   <br />
-  I am a proponent of agile working approaches and have worked with both Kanban and Scrum approaches, and helped to develop internal team processes and operating models.
-  <br />
-  I am frequently exploring new technologies and approaches, and interesting ways of combining existing approaches.
-  </small>`,
+    In my career, I've worked across a variety of industries and roles, developing my skills as:
+    <light>
+      <ul>
+        <li>
+          A product leader across ideation, product strategy, budget management, lifecycle management, product and technology roadmaps, go to market.
+        </li>
+        <li>
+          A strategic thinker, developing strategy for product, team and function.
+        </li>
+        <li>
+          An architect of systems, software, and models.
+        </li>
+        <li>
+          An advocate for Human Centered Design and embedding design thinking into the wider organisation
+        </li>
+        <li>
+          A team leader and manager with strong leadership and teamwork skills, leading and managing multi-functional teams to deliver large, complex, and high-value systems
+        </li>
+        <li>
+          A technical leader for large, complex, and high-value digital systems comprising: Software and Infrastructure, Modelling and Simulation, Data and Analytics, AI and ML, and Optimisation
+        </li>
+      </ul>
+    </light>
+  `,
   skills: [
     "CI/CD",
     "DevOps",
@@ -56,8 +91,9 @@ module.exports = {
     "Microservices",
     "API Development",
     "CLI",
+    "Architecture",
     "Optimisation",
-    "Simulation",
+    "Modelling and Simulation",
     "Uncertainty Quantification",
     "Cloud",
     "Edge",
@@ -68,6 +104,11 @@ module.exports = {
     "Bayesian statistics",
     "Probabilistic Approaches",
     "Monte Carlo Methods",
+    "Management",
+    "Leadership",
+    "Strategic Thinking",
+    "Design Thinking",
+    "Technology and Product Development"
   ],
   tools : [
     "Python",
@@ -82,12 +123,16 @@ module.exports = {
     "Bokeh",
     "Plotly",
     "Click",
-    "Pydantic"
+    "Pydantic",
+    "Pint",
+    "Simpy",
+    "Poetry",
+    "MSAL",
+    "Logseq"
   ],
   learning: [
     "Gatsby",
     "React",
-    "AAD Authentication",
     "Julia",
     "GraphQL"
   ]

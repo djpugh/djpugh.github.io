@@ -6,7 +6,8 @@ import { Links } from 'components/theme/Footer/styles';
 import { Wrapper, IntroWrapper, Details } from './styles';
 import {
   defaultDescription,
-  socialLinks
+  socialLinks,
+  summary
 } from 'data/config';
 
 export const Intro = () => {
@@ -19,6 +20,8 @@ export const Intro = () => {
         <Details theme={theme}>
           <h1>Hi There!</h1>
           <h4>{defaultDescription}</h4>
+          <p dangerouslySetInnerHTML={{__html: summary}}>
+          </p>
           <p>Get in touch with me on Github or LinkedIn:</p>
           <Links>
             {socialLinks.map(({ id, name, link, icon }) => (
