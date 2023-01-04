@@ -47,6 +47,11 @@ export const Details = styled.div`
       mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
     }
   }
+
+  light {
+    font-size: 12pt;
+    font-weight: lighter;
+  }
 `;
 
 export const Thumbnail = styled.div`
