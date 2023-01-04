@@ -56,29 +56,29 @@ module.exports = {
   </small>
   <br />
   <br />
-    In my career, I've worked across a variety of industries and roles, developing my skills as:
-    <light>
-      <ul>
-        <li>
-          A product leader across ideation, product strategy, budget management, lifecycle management, product and technology roadmaps, go to market.
-        </li>
-        <li>
-          A strategic thinker, developing strategy for product, team and function.
-        </li>
-        <li>
-          An architect of systems, software, and models.
-        </li>
-        <li>
-          An advocate for Human Centered Design and embedding design thinking into the wider organisation
-        </li>
-        <li>
-          A team leader and manager with strong leadership and teamwork skills, leading and managing multi-functional teams to deliver large, complex, and high-value systems
-        </li>
-        <li>
-          A technical leader for large, complex, and high-value digital systems comprising: Software and Infrastructure, Modelling and Simulation, Data and Analytics, AI and ML, and Optimisation
-        </li>
-      </ul>
-    </light>
+  In my career, I've worked across a variety of industries and roles, developing my skills as:
+  <light>
+    <ul>
+      <li>
+        A product leader across ideation, product strategy, budget management, lifecycle management, product and technology roadmaps, go to market.
+      </li>
+      <li>
+        A strategic thinker, developing strategy for product, team and function.
+      </li>
+      <li>
+        An architect of systems, software, and models.
+      </li>
+      <li>
+        An advocate for Human Centered Design and embedding design thinking into the wider organisation
+      </li>
+      <li>
+        A team leader and manager with strong leadership and teamwork skills, leading and managing multi-functional teams to deliver large, complex, and high-value systems
+      </li>
+      <li>
+        A technical leader for large, complex, and high-value digital systems comprising: Software and Infrastructure, Modelling and Simulation, Data and Analytics, AI and ML, and Optimisation
+      </li>
+    </ul>
+  </light>
   `,
   skills: [
     "CI/CD",
