@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   background-size: contain;
   background-position: right top;
   background-repeat: no-repeat;
 `;
 
 export const IntroWrapper = styled.div`
-  padding: 4rem 0;
+  padding: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
