@@ -56,8 +56,10 @@ module.exports = {
   </small>
   <br />
   <br />
-  In my career, I've worked across a variety of industries and roles, developing my skills as:
-  <light>
+  <b>
+    In my career so far, I've worked across a variety of industries and roles, developing my skills as:
+  </b>
+  <small>
     <ul>
       <li>
         A product leader across ideation, product strategy, budget management, lifecycle management, product and technology roadmaps, go to market.
@@ -78,7 +80,7 @@ module.exports = {
         A technical leader for large, complex, and high-value digital systems comprising: Software and Infrastructure, Modelling and Simulation, Data and Analytics, AI and ML, and Optimisation
       </li>
     </ul>
-  </light>
+  </small>
   `,
   skills: [
     "CI/CD",
