@@ -22,7 +22,7 @@ module.exports = {
     {
       "id": 1,
       "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/david-pugh-3937a9129/",
+      "link": "https://www.linkedin.com/in/djpugh/",
       "icon": "/icons/linkedin.svg"
     }
   ],
